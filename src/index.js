@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import  'bootstrap/dist/css/bootstrap.min.css';
-// import  'bootstrap/dist/css/bootstrap-theme.min.css'
-import 'foundation-sites/dist/css/foundation-flex.min.css';
-import 'foundation-sites/dist/css/foundation.min.css';
+import  'bootstrap/dist/css/bootstrap.min.css';
+import  'bootstrap/dist/css/bootstrap-theme.min.css'
+
 
 const mobiles = [
     {
@@ -223,7 +222,15 @@ function Mobile(x) {
 }
 */
 
-const hello = <h1>HELLO</h1>;
+const header = <nav className="navbar navbar-inverse">
+    <div className="container-fluid">
+        <div className="navbar-header">
+            <a className="navbar-brand" href="#">
+                <img alt="Brand" src="..img/download.jpg" />
+            </a>
+        </div>
+    </div>
+</nav>;
 
 class Mobile extends React.Component {
     render() {
@@ -235,14 +242,7 @@ const MobileList = React.createClass({
     render: function () {
         return (
             <div>
-                <ul className="sub-nav menu" role="navigation" title="Filter Menu List">
-                    <li className="sub-nav-title">Filter:</li>
-                    <li className="active"><span className="show-for-sr">You're viewing </span><a href="#">All</a></li>
-                    <li><a href="#">Active</a></li>
-                    <li><a href="#">Pending</a></li>
-                    <li><a href="#">Suspended</a></li>
-                </ul>
-                {hello}
+                {header}
                 <ul>
                     {
                         mobiles.map(function (el) {

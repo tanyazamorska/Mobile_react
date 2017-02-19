@@ -16,20 +16,3 @@ body {
     width: 35px;
 }
 
-.sub-nav {
-    background-color: #f2f2f2;
-    padding: 0.5rem 0.5rem 0.5rem 0;
-}
-.sub-nav li {
-    color: #999999;
-    font-size: 0.77778rem;
-    padding-left: 0.88889rem;
-}
-.sub-nav li.active a {
-    border-radius: 3px;
-    background: #008CBA;
-    color: #fff;
-    cursor: default;
-    font-weight: normal;
-    padding: 0.16667rem 0.88889rem;
-}
