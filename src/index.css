@@ -1,24 +1,14 @@
-body {
-  margin: 0;
-  font-family: sans-serif;
-}
-
-.Comment {
-  background-color: #f5f5f5;
-  border-radius: 5px;
-  border: 1px solid #d5d5d5;
-}
+li {
+  color: red; }
 
 .logo {
-    height: 60px;
-    width: 60px;
-}
-
-.brend-name {
-    line-height: 80px;
-}
+  width: 65px; }
 
 .phone {
-    max-width: 5%;
-    height: auto;
-}
+  width: 5%;
+  height: auto; }
+
+.brend-name {
+  line-height: 85px; }
+
+/*# sourceMappingURL=index.css.map */
