@@ -1,14 +1,10 @@
-
-# The clone project you have to install with `npm`:
-
-### `npm install`
+#### The clone project you have to install with `npm`:
+`npm install`
 
 
-# To begin the development, run:
+#### To begin the development, run:
+`npm start`
 
-### `npm start`
 
-
-# start watcher
-
-### `compass watcher`
+#### watch and translate SCSS to CSS
+`sass --watcher src:src`

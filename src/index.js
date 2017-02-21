@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
 import  'bootstrap/dist/css/bootstrap.min.css';
 import  'bootstrap/dist/css/bootstrap-theme.min.css'
-
+import './index.css';
 
 const mobiles = [
     {
@@ -272,14 +272,12 @@ function Mobile(x) {
 }
 */
 
-const header = <div className="container-default">
-    <nav className="navbar navbar-default">
-        <a className="navbar-brand" href="#">
-            <img className="logo" src="https://taradajko.com/wp-content/uploads/2016/11/unnamed.png.pagespeed.ce.H6cmkDUK-p.png" alt="logo" />
-        </a>
-        <span className="brend-name">Интернет магазин Mobile.ua™</span>
-    </nav>
-</div>;
+const header = <nav className="navbar navbar-default">
+    <a className="navbar-brand" href="#">
+        <img className="logo" src="logo.jpg" alt="Mobile"/>
+    </a>
+    <span className="brend-name">Интернет магазин Mobile.ua™</span>
+</nav>;
 
 const footer = <div className="panel-footer">
     <div>© Интернет-магазин «Mobile™» 2017</div>
@@ -298,8 +296,8 @@ class Mobile extends React.Component {
     }
 }
 
-const MobileList = React.createClass({
-    render: function () {
+class MobileList extends React.Component {
+    render () {
         return (
             <div>
                 {header}
@@ -314,7 +312,7 @@ const MobileList = React.createClass({
             </div>
         )
     }
-});
+}
 
 ReactDOM.render(
     <MobileList />,
