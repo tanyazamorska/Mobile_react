@@ -314,10 +314,8 @@ class MobileList extends React.Component {
     }
 }
 
+
 ReactDOM.render(
-    <MobileList />,
-    document.getElementById('root')
+    <MobileList/>,
+        document.getElementById('root')
 );
-
-
-
