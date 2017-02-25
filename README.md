@@ -7,4 +7,7 @@
 
 
 #### watch and translate SCSS to CSS
-`sass --watcher src:src`
+`sass --watch src:src`
+
+#### how to remove package
+`npm remove --save name folder`
