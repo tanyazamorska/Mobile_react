@@ -1,14 +1,33 @@
-li {
-  color: blueviolet; }
-
 .logo {
   width: 65px; }
 
-.phone {
-  width: 5%;
-  height: auto; }
-
 .brend-name {
   line-height: 90px; }
+
+.circle {
+  width: 240px;
+  height: 330px;
+  border: 1px solid darkgreen;
+  float: left;
+  margin: 5px; }
+
+.square {
+  width: 1290px;
+  height: 3411px;
+  margin-left: 55px; }
+
+.activeLink, .imgPhone {
+  padding-left: 15px;
+  padding-top: 5px; }
+
+.imgPhone {
+  width: 3%;
+  height: auto; }
+
+.footer {
+  background-color: #f3f3f3;
+  width: 100%;
+  height: auto;
+  padding-left: 25px; }
 
 /*# sourceMappingURL=index.css.map */

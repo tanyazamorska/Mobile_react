@@ -27,8 +27,12 @@ function Mobile(x) {
 class Mobile extends React.Component {
     render() {
         return <div className="circle">
-            <img className="phone" src={this.props.url} alt="mobile" />
-            <Link to={"/mobile/" + this.props.i}>{this.props.name}</Link>
+            <div className="activeLink">
+                <Link to={"/mobile/" + this.props.i}>{this.props.name}</Link>
+            </div>
+            <div className="imgPhone">
+                <img className="phone" src={this.props.url} alt="mobile" />
+            </div>
         </div>
     }
 }
